@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff7e6;
+    color: #3e2723;
+}
+
+header {
+    background: #8d6e63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.ad-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-image {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.ad-text {
+    max-width: 200px;
+    margin: 10px;
+}
+
+.ad-text h2 {
+    color: #6d4c41;
+}
+
+button {
+    background: #141414;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f5f0e9;
+}
+
+footer {
+    background: #131212;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
